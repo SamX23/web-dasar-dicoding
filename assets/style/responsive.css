@@ -1,0 +1,90 @@
+@media only screen and (max-device-width: 546px) {
+    header {
+        display: none;
+    }
+
+    .top-wrapper {
+        background-size: cover;
+        width: 100%;
+        height: auto;
+    }
+
+    .top-wrapper .container {
+        padding-top: 100px;
+        padding-bottom: 50px;
+        margin: 0px;
+    }
+
+    .top-wrapper h1 {
+        letter-spacing: 5px;
+    }
+
+    .card-container p,
+    .card-container table {
+        font-size: 100%;
+    }
+
+    article h1,
+    article p {
+        font-size: medium;
+    }
+
+    .top-wrapper button,
+    aside h1 {
+        font-size: 100%;
+    }
+
+    .credit span {
+        font-size: 75%;
+        padding-bottom: 3px;
+    }
+
+    .flex-item {
+        width: 75%;
+        padding: 2px;
+        margin: 5px;
+    }
+
+    .card-container img {
+        width: 75%;
+    }
+
+    .card-container table {
+        margin: 2px auto;
+    }
+
+    footer p {
+        padding-top: 3px;
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-device-width: 800px) {
+    .flex-item {
+        width: 75%;
+        padding: 2px;
+        margin: 10px;
+    }
+
+    .card-container img {
+        width: 75%;
+    }
+
+    .card-container table {
+        margin: 2px auto;
+    }
+}
+
+@media only screen and (max-device-width: 1100px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-device-width: 1260px) {
+    .flex-item {
+        width: 80%;
+        padding: 2px;
+        margin: 10px;
+    }
+}
