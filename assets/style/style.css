@@ -2,17 +2,17 @@
 
 @font-face {
     font-family: BungeeShade;
-    src: url('/assets/fonts/BungeeShade-Regular.ttf');
+    src: url('../fonts/BungeeShade-Regular.ttf');
 }
 
 @font-face {
     font-family: 'Black Ops One';
-    src: url('/assets/fonts/BlackOpsOne-Regular.ttf');
+    src: url('../fonts/BlackOpsOne-Regular.ttf');
 }
 
 @font-face {
     font-family: Monoton;
-    src: url('/assets/fonts/Monoton-Regular.ttf');
+    src: url('../fonts/Monoton-Regular.ttf');
 }
 
 * {
